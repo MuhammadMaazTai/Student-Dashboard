@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details | Five Dimensions of Learning</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <aside>
+        <!-- Branding Logo & Label -->
+        <div id="aside-img-h6">
+            <img src="./assects/fiveImage.jpeg" alt="" id="aside-img">
+            <h6>dimensions of learning</h6>
+        </div>
+        <!-- Main Navigation Items -->
+        <ul id="aside-ul">
+            <li><i class="fa-regular fa-clipboard"></i> Onboarding</li>
+            <li><i class="fa-solid fa-book-open-reader"></i> Study</li>
+            <li><i class="fa-solid fa-seedling"></i> Metalab</li>
+            <li><i class="fa-regular fa-circle-question"></i> Doubt</li>
+            <li><i class="fa-regular fa-building"></i> Exam Center</li>
+            <li><i class="fa-regular fa-file-lines"></i> Test Series</li>
+            <li><i class="fa-regular fa-circle-stop"></i> PD</li>
+            <li><i class="fa-regular fa-file-zipper"></i> Extra Curricular</li>
+            <li><i class="fa-regular fa-lightbulb"></i> Imaginations</li>
+            <li><i class="fa-solid fa-gamepad"></i> Games</li>
+            <li><i class="fa-solid fa-person"></i> Parents</li>
+            <li><i class="fa-solid fa-user-graduate"></i> Students</li>
+            <li><i class="fa-solid fa-chalkboard"></i> Leaderboard</li>
+        </ul>
+        <a>sign out</a>
+    </aside>
+
+    <header>
+        <div id="head-left">
+            <i class="fa-solid fa-arrow-left"></i>
+            <div id="head-title">
+                <h3>Student Details</h3>
+                <p><a href="#">Students List</a> / Student Details</p>
+            </div>
+        </div>
+
+        <div id="head-right">
+            <div id="search-wrap">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="search-box" placeholder="Search anything">
+            </div>
+            <div id="head-profile">
+                <img src="./assects/profileImg.png" alt="Santosh Sinha">
+                <div id="profile-text">
+                    <span id="profile-name">ABC</span>
+                    <span id="profile-role">Student</span>
+                </div>
+            </div>
+            <i class="fa-regular fa-bell"></i>
+            <i class="fa-solid fa-gear"></i>
+        </div>
+    </header>
+
+    <main>
+        <!-- LEFT: Student profile card -->
+        <div id="main-left">
+            <div id="left-upper">
+                <img id="profile-avatar" src="./assects/profileImg.png" alt="Nitara Verma">
+            </div>
+
+            <div id="left-content">
+                <div>
+                    <div id="badges">
+                        <span class="badge badge-id">STU-005</span>
+                        <span class="badge badge-active">Active</span>
+                    </div>
+                    <div id="student-name">ABC</div>
+                    <div id="enrolled-date">Enrolled on july 22, 2026</div>
+
+                    <div id="quick-actions">
+                        <button class="icon-btn"><i class="fa-solid fa-phone"></i></button>
+                        <button class="icon-btn"><i class="fa-regular fa-envelope"></i></button>
+                        <button id="chat-btn"><i class="fa-regular fa-comment"></i> Chat</button>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="section-title">Contact</h4>
+                    <ul class="info-list">
+                        <li>
+                            <i class="fa-regular fa-envelope"></i>
+                            <div>
+                                <div class="label">Email</div>
+                                <div class="value">ABC@gmail.com</div>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <div>
+                                <div class="label">Phone Number</div>
+                                <div class="value">+91 9876543210</div>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>
+                                <div class="label">Address</div>
+                                <div class="value"> scheme 78 , indore , India</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="section-title">Awards & Recognisations</h4>
+                    <ul class="award-list">
+                        <li><i class="fa-solid fa-award"></i> 2nd position in Spanish Olympiad</li>
+                        <li><i class="fa-solid fa-award"></i> 10th position in Mathmatics Olympiad</li>
+                        <li><i class="fa-solid fa-award"></i> Student of the Year</li>
+                        <li><i class="fa-solid fa-award"></i> Outstanding Punctuality Award</li>
+                        <li><i class="fa-solid fa-award"></i> Perfect Attendance Award</li>
+                        <li><i class="fa-solid fa-award"></i> Most Improved Student</li>
+                        <li><i class="fa-solid fa-award"></i> Creative Thinker Award</li>
+                    </ul>
+                </div>
+
+                <button id="edit-btn"><i class="fa-solid fa-pen"></i> Edit</button>
+            </div>
+        </div>
+
+        <!-- RIGHT: dashboard grid -->
+        <div id="main-right">
+
+            <!-- Learning Activity -->
+            <div id="main-rightb1">
+                <div id="b1-top-bar">
+                    <div id="rightb1-left">Learning Activity</div>
+                    <div id="rightb1-right">
+                        <select id="activity-range">
+                            <option>This Week</option>
+                            <option>Last Week</option>
+                            <option>This Month</option>
+                        </select>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+
+                <div id="b1-total">
+                    <span class="b1-total-num">42</span> hours
+                    <span class="b1-total-num">30</span> minutes
+                </div>
+
+                <div id="b1-image">
+                    <img src="./assects/bar_graph.png" alt="Learning activity bar chart">
+                </div>
+
+                <div id="under-graph-container">
+                    <div class="under-graph-conts" id="b1-cont1">
+                        <strong>16 Hours</strong>
+                        <span>French for Beginners</span>
+                    </div>
+                    <div class="under-graph-conts" id="b1-cont2">
+                        <strong>16 Hours</strong>
+                        <span>Spanish for Beginners</span>
+                    </div>
+                    <div class="under-graph-conts" id="b1-cont3">
+                        <strong>10.5 Hours</strong>
+                        <span>Business Communication</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Performance -->
+            <div id="main-rightb2">
+                <div id="rightb2-topbar">
+                    <h3>Performance</h3>
+                    <select id="last-month">
+                        <option>Last 6 Months</option>
+                        <option>Last 3 Months</option>
+                        <option>This Year</option>
+                    </select>
+                </div>
+
+                <div id="rightb2-h4">
+                    <div id="main-rightb2-cont">
+                        <img src="./assects/kpi.png" alt="Performance score gauge">
+                        <div id="kpi-legend">
+                            <div>Participation <b>55%</b></div>
+                            <div>Class Quiz <b>15%</b></div>
+                            <div>Exam <b>10%</b></div>
+                            <div>Absent <b>10%</b></div>
+                        </div>
+                    </div>
+
+                    <div id="line-graph">
+                        <img src="./assects/linegraph.png" alt="Performance trend line graph">
+                    </div>
+
+                    <h4>Success is the sum of small efforts, repeated day in and day out. Keep pushing forward! 😊</h4>
+                </div>
+            </div>
+
+            <!-- Enrolled Courses -->
+            <div id="main-rightb3">
+                <div id="b3-top-bar">
+                    <h3>Enrolled Courses</h3>
+                    <div id="b3-controls">
+                        <div id="course-search-wrap">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" placeholder="Search course, category, etc">
+                        </div>
+                        <button id="All-status">All Status <i class="fa-solid fa-chevron-down"></i></button>
+                        <button id="view-all-btn">View All</button>
+                    </div>
+                </div>
+
+                <div id="courses-container">
+
+                    <div class="course-card">
+                        <img src="./assects/french.png" alt="French for Beginners">
+                        <h5>French for Beginners</h5>
+                        <p>Language &middot; Beginner</p>
+                        <p>15 lessons &middot; 25h</p>
+                        <p>60% &middot; Ongoing &middot; 78/100</p>
+                    </div>
+
+                    <div class="course-card">
+                        <img src="./assects/maths.png" alt="Mathematics">
+                        <h5>Mathematics</h5>
+                        <p>Maths &middot; Intermediate</p>
+                        <p>20 lessons &middot; 40h</p>
+                        <p>50% &middot; Ongoing &middot; 72/100</p>
+                    </div>
+
+                    <div class="course-card">
+                        <img src="./assects/spanish.png" alt="Spanish for Beginners">
+                        <h5>Spanish for Beginners</h5>
+                        <p>Language &middot; Beginner</p>
+                        <p>18 lessons &middot; 30h</p>
+                        <p>100% &middot; Completed &middot; 90/100</p>
+                    </div>
+
+                    <div class="course-card">
+                        <img src="./assects/envostudies.png" alt="Environmental Studies">
+                        <h5>Environmental Studies</h5>
+                        <p>Science &middot; Beginner</p>
+                        <p>19 lessons &middot; 29h</p>
+                        <p>35% &middot; Ongoing &middot; 64/100</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div id="footer-text">
+            <div id="footter-left">Copyright &copy; 2025</div>
+            <div id="footer-right">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Term and conditions</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
